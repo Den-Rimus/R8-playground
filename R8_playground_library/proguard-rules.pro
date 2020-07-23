@@ -1,16 +1,9 @@
 
 # <common_rules>
-    -optimizationpasses 5
-    -dontusemixedcaseclassnames
-    -dontskipnonpubliclibraryclasses
-    -dontpreverify
     -dontshrink
-    -verbose
     -ignorewarnings
-    -optimizations !code/simplification/arithmetic,!field/*,!class/merging/*,!code/allocation/variable
     -renamesourcefileattribute SourceFile
     -keepattributes SourceFile,LineNumberTable,*Annotation*,Signature,InnerClasses,EnclosingMethod,MethodParameters
-    -keepparameternames
 
     -keep enum * { public *; }
 
