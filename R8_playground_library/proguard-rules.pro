@@ -25,6 +25,7 @@
     -keep public interface com.example.r8playgroundlib.BaseFoo { *; }
     -keep public class com.example.r8playgroundlib.Bar { *; }
     -keep public class com.example.r8playgroundlib.SomeOtherClass { *; }
+    -keep public class com.example.r8playgroundlib.SomeOtherClass$* { *; }
     -keep public class com.example.r8playgroundlib.Alice { *; }
     -keep public class com.example.r8playgroundlib.Bob { *; }
     -keep public interface com.example.r8playgroundlib.Bar$DerivedFoo { *; }
